@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trip Details - Alentejano on Two Wheels</title>
+    <link rel="icon" type="image/png" href="img/logo.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="header-content">
+          <img
+            src="img/logo.png"
+            alt="Alentejano on Two Wheels Logo"
+            class="logo"
+          />
+          <h1>Alentejano on Two Wheels</h1>
+        </div>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="trips.html">Trips</a>
+          <a href="gallery.html">Gallery</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Trip Header -->
+      <section class="trip-header">
+        <div class="trip-header-content">
+          <div class="trip-header-text">
+            <div class="trip-meta-top">
+              <span class="category-badge" id="trip-category">Loading...</span>
+              <span class="trip-date" id="trip-date">Loading...</span>
+            </div>
+            <h1 id="trip-title">Loading Trip...</h1>
+            <p id="trip-description">Loading trip description...</p>
+            <div class="trip-stats">
+              <div class="stat-item">
+                <span class="stat-value" id="trip-distance">-</span>
+                <span class="stat-label">Kilometers</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-value" id="trip-duration">-</span>
+                <span class="stat-label">Duration</span>
+              </div>
+            </div>
+          </div>
+          <div class="trip-header-image">
+            <img id="trip-cover-image" src="https://via.placeholder.com/600x400/2a2a2a/00d4ff?text=Loading..." alt="Trip Cover">
+          </div>
+        </div>
+      </section>
+
+      <!-- Trip Story -->
+      <section class="section">
+        <h2>The Journey</h2>
+        <div class="trip-story">
+          <div class="story-content">
+            <p>This trip story is coming soon. Check back for the full adventure details, route information, and personal insights from the road.</p>
+            <p>In the meantime, you can explore the photos above to get a glimpse of the adventure, or check out other trips to see more of Portugal's beautiful landscapes.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Trip Photos -->
+      <section class="section">
+        <h2>Trip Photos</h2>
+        <div class="trip-photos" id="trip-photos">
+          <div class="loading">Loading photos...</div>
+        </div>
+      </section>
+
+      <!-- Route & Map -->
+      <section class="section">
+        <h2>Route & Map</h2>
+        <div class="route-map-container">
+          <div class="map-section">
+            <div class="map-placeholder" id="trip-map">
+              <div class="loading">Loading map...</div>
+            </div>
+            <div class="map-controls">
+              <button class="btn btn-secondary" id="open-gmaps">
+                <span>🗺️</span> Open in Google Maps
+              </button>
+              <button class="btn btn-secondary" id="open-apple-maps">
+                <span>🍎</span> Open in Apple Maps
+              </button>
+              <button class="btn btn-secondary" id="download-gpx">
+                <span>📱</span> Download GPX Route
+              </button>
+            </div>
+          </div>
+          <div class="route-info">
+            <h3>Route Information</h3>
+            <div class="route-details" id="route-details">
+              <p>GPX route file loaded. Use the buttons above to open in your preferred mapping app or download the file.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Related Trips -->
+      <section class="section">
+        <h2>More Adventures</h2>
+        <div class="related-trips" id="related-trips">
+          <div class="loading">Loading related trips...</div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 Alentejano on Two Wheels | Made with ❤️ for the open road</p>
+    </footer>
+
+    <script src="js/trip-detail.js"></script>
+  </body>
+</html>

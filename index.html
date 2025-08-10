@@ -4,35 +4,120 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alentejano on Two Wheels</title>
+    <link rel="icon" type="image/png" href="img/logo.png" />
     <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
-      <img
-        src="img/logo.png"
-        alt="Alentejano on Two Wheels Logo"
-        class="logo"
-      />
-      <h1>Alentejano on Two Wheels</h1>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="trips.html">Trips</a>
-      </nav>
+      <div class="header-container">
+        <div class="header-content">
+          <img
+            src="img/logo.png"
+            alt="Alentejano on Two Wheels Logo"
+            class="logo"
+          />
+          <h1>Alentejano on Two Wheels</h1>
+        </div>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="trips.html">Trips</a>
+          <a href="gallery.html">Gallery</a>
+        </nav>
+      </div>
     </header>
 
     <main>
-      <section>
-        <h2>Welcome!</h2>
+      <!-- Hero Section -->
+      <section class="hero">
+        <h1>Adventure Awaits</h1>
         <p>
-          This is my personal blog where I share my motorcycle trips across
-          Portugal and beyond. Enjoy the ride!
+          Join me on my motorcycle journeys across Portugal and beyond. 
+          Discover hidden roads, breathtaking landscapes, and unforgettable experiences.
         </p>
-        <a class="btn" href="trips.html">See my trips →</a>
+        <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+          <a href="trips.html" class="btn">Explore Trips</a>
+          <a href="gallery.html" class="btn btn-secondary">View Gallery</a>
+        </div>
+      </section>
+
+      <!-- Latest Trips Section -->
+      <section class="section">
+        <h2>Latest Adventures</h2>
+        <div id="latest-trips" class="grid grid-3">
+          <div class="loading">Loading latest trips...</div>
+        </div>
+      </section>
+
+      <!-- Featured Content Section -->
+      <section class="section">
+        <h2>Featured Stories</h2>
+        <div class="grid grid-2">
+          <div class="card fade-in-up">
+            <img src="img/trips/evora.jpg" alt="Évora Countryside" onerror="this.src='https://via.placeholder.com/400x200/2a2a2a/00d4ff?text=Évora+Ride'">
+            <h3>Ride to Évora</h3>
+            <p>A beautiful journey through the Alentejo countryside to the historic city of Évora, featuring ancient Roman ruins and stunning landscapes.</p>
+            <div class="card-meta">
+              <span>March 15, 2025</span>
+              <span>Countryside</span>
+            </div>
+            <a href="trips.html" class="btn">Read More</a>
+          </div>
+          
+          <div class="card fade-in-up">
+            <img src="img/trips/coast.jpg" alt="Coastal Route" onerror="this.src='https://via.placeholder.com/400x200/2a2a2a/00d4ff?text=Coastal+Route'">
+            <h3>Coastal Adventures</h3>
+            <p>Exploring the stunning Portuguese coastline, from dramatic cliffs to hidden beaches, experiencing the perfect blend of sea and mountain roads.</p>
+            <div class="card-meta">
+              <span>Coming Soon</span>
+              <span>Coastal</span>
+            </div>
+            <a href="trips.html" class="btn">Coming Soon</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section class="section">
+        <h2>About the Rider</h2>
+        <div class="card">
+          <p style="font-size: 1.1rem; line-height: 1.8;">
+            Welcome to my motorcycle journey! I'm passionate about exploring the beautiful landscapes of Portugal and beyond on two wheels. 
+            Each trip is an opportunity to discover new roads, meet interesting people, and create lasting memories.
+          </p>
+          <p style="font-size: 1.1rem; line-height: 1.8; margin-top: 1rem;">
+            From the rolling hills of Alentejo to the dramatic mountains of the north, I share my experiences, routes, and tips 
+            to inspire fellow riders to embark on their own adventures.
+          </p>
+        </div>
+      </section>
+
+      <!-- Stats Section -->
+      <section class="section">
+        <h2>Journey Stats</h2>
+        <div class="grid grid-4">
+          <div class="card text-center">
+            <h3 id="total-trips">0</h3>
+            <p>Total Trips</p>
+          </div>
+          <div class="card text-center">
+            <h3 id="total-distance">0</h3>
+            <p>Kilometers Ridden</p>
+          </div>
+          <div class="card text-center">
+            <h3 id="total-photos">0</h3>
+            <p>Photos Taken</p>
+          </div>
+          <div class="card text-center">
+            <h3 id="favorite-route">Évora</h3>
+            <p>Favorite Route</p>
+          </div>
+        </div>
       </section>
     </main>
 
     <footer>
-      <p>© 2025 Alentejano on Two Wheels</p>
+      <p>© 2025 Alentejano on Two Wheels | Made with ❤️ for the open road</p>
     </footer>
 
     <script src="js/main.js"></script>

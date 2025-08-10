@@ -1,9 +1,237 @@
 [
   {
+    "id": "evora-ride",
     "title": "Ride to Évora",
     "date": "2025-03-15",
     "image": "img/trips/evora.jpg",
-    "description": "A beautiful ride through the Alentejo countryside to the historic city of Évora.",
-    "link": "trip-template.html"
+    "description": "A beautiful ride through the Alentejo countryside to the historic city of Évora, featuring ancient Roman ruins and stunning landscapes.",
+    "category": "Countryside",
+    "distance": "180",
+    "duration": "1 day",
+    "link": "trip-template.html?id=evora-ride",
+    "gpxFile": "img/gpx/sample-route.gpx",
+    "photos": [
+      {
+        "src": "img/trips/evora-1.jpg",
+        "alt": "Évora Roman Temple",
+        "caption": "The iconic Roman Temple of Évora, standing proud in the city center"
+      },
+      {
+        "src": "img/trips/evora-2.jpg",
+        "alt": "Alentejo Countryside",
+        "caption": "Rolling hills and cork oak trees typical of the Alentejo region"
+      },
+      {
+        "src": "img/trips/evora-3.jpg",
+        "alt": "Historic Évora Streets",
+        "caption": "Wandering through the medieval streets of Évora's historic center"
+      },
+      {
+        "src": "img/trips/evora-4.jpg",
+        "alt": "Motorcycle at Viewpoint",
+        "caption": "My motorcycle parked at a scenic viewpoint overlooking the plains"
+      }
+    ]
+  },
+  {
+    "id": "coastal-route",
+    "title": "Coastal Adventures",
+    "date": "2025-02-28",
+    "image": "img/trips/coast.jpg",
+    "description": "Exploring the stunning Portuguese coastline, from dramatic cliffs to hidden beaches, experiencing the perfect blend of sea and mountain roads.",
+    "category": "Coastal",
+    "distance": "320",
+    "duration": "2 days",
+    "link": "trip-template.html?id=coastal-route",
+    "gpxFile": "img/gpx/coastal-route.gpx",
+    "map": {
+      "googleMapsUrl": "https://maps.google.com/?q=Cabo+da+Roca,Portugal",
+      "startPoint": "Lisbon, Portugal",
+      "endPoint": "Cabo da Roca, Portugal",
+      "waypoints": ["Sintra", "Cascais", "Guincho Beach"],
+      "routeDescription": "Coastal route along the Atlantic coast, featuring dramatic cliffs, historic towns, and panoramic ocean views."
+    },
+    "photos": [
+      {
+        "src": "img/trips/coast-1.jpg",
+        "alt": "Cabo da Roca",
+        "caption": "Standing at the westernmost point of continental Europe"
+      },
+      {
+        "src": "img/trips/coast-2.jpg",
+        "alt": "Sintra Mountains",
+        "caption": "The mystical Sintra mountains shrouded in morning mist"
+      },
+      {
+        "src": "img/trips/coast-3.jpg",
+        "alt": "Hidden Beach",
+        "caption": "A secluded beach accessible only by motorcycle"
+      },
+      {
+        "src": "img/trips/coast-4.jpg",
+        "alt": "Coastal Road",
+        "caption": "The winding coastal road with spectacular ocean views"
+      }
+    ]
+  },
+  {
+    "id": "douro-valley",
+    "title": "Douro Valley Wine Route",
+    "date": "2025-01-20",
+    "image": "img/trips/douro.jpg",
+    "description": "A scenic journey through the terraced vineyards of the Douro Valley, following the winding river and visiting historic wine estates.",
+    "category": "Wine Country",
+    "distance": "280",
+    "duration": "3 days",
+    "link": "trip-template.html?id=douro-valley",
+    "map": {
+      "googleMapsUrl": "https://maps.google.com/?q=Douro+Valley,Portugal",
+      "startPoint": "Porto, Portugal",
+      "endPoint": "Pinhão, Portugal",
+      "waypoints": ["Amarante", "Lamego", "Vila Real"],
+      "routeDescription": "Winding route through the UNESCO World Heritage Douro Valley, following the river and visiting historic wine estates."
+    },
+    "photos": [
+      {
+        "src": "img/trips/douro-1.jpg",
+        "alt": "Vineyard Terraces",
+        "caption": "The iconic terraced vineyards of the Douro Valley"
+      },
+      {
+        "src": "img/trips/douro-2.jpg",
+        "alt": "Port Wine Cellar",
+        "caption": "Historic port wine cellar with aging barrels"
+      },
+      {
+        "src": "img/trips/douro-3.jpg",
+        "alt": "River Views",
+        "caption": "Breathtaking views of the Douro River from above"
+      },
+      {
+        "src": "img/trips/douro-4.jpg",
+        "alt": "Wine Estate",
+        "caption": "Traditional Portuguese wine estate architecture"
+      }
+    ]
+  },
+  {
+    "id": "serra-estrela",
+    "title": "Serra da Estrela Mountains",
+    "date": "2024-12-10",
+    "image": "img/trips/serra-estrela.jpg",
+    "description": "Conquering Portugal's highest peaks in the Serra da Estrela range, with challenging mountain passes and breathtaking alpine scenery.",
+    "category": "Mountains",
+    "distance": "450",
+    "duration": "4 days",
+    "link": "trip-template.html?id=serra-estrela",
+    "map": {
+      "googleMapsUrl": "https://maps.google.com/?q=Serra+da+Estrela,Portugal",
+      "startPoint": "Coimbra, Portugal",
+      "endPoint": "Torre, Serra da Estrela",
+      "waypoints": ["Seia", "Manteigas", "Covilhã"],
+      "routeDescription": "Mountain route through Portugal's highest peaks, featuring challenging switchbacks and stunning alpine vistas."
+    },
+    "photos": [
+      {
+        "src": "img/trips/serra-1.jpg",
+        "alt": "Mountain Pass",
+        "caption": "Challenging mountain pass with stunning alpine views"
+      },
+      {
+        "src": "img/trips/serra-2.jpg",
+        "alt": "Alpine Lake",
+        "caption": "Crystal clear alpine lake reflecting the mountain peaks"
+      },
+      {
+        "src": "img/trips/serra-3.jpg",
+        "alt": "Sheep Herd",
+        "caption": "Traditional sheep herding in the mountain meadows"
+      },
+      {
+        "src": "img/trips/serra-4.jpg",
+        "alt": "Mountain Village",
+        "caption": "Charming traditional village nestled in the mountains"
+      }
+    ]
+  },
+  {
+    "id": "algarve-coast",
+    "title": "Algarve Coastal Cruise",
+    "date": "2024-11-05",
+    "image": "img/trips/algarve.jpg",
+    "description": "Cruising along the southern coast of Portugal, discovering golden beaches, limestone cliffs, and charming fishing villages.",
+    "category": "Coastal",
+    "distance": "380",
+    "duration": "3 days",
+    "link": "trip-template.html?id=algarve-coast",
+    "map": {
+      "googleMapsUrl": "https://maps.google.com/?q=Algarve,Portugal",
+      "startPoint": "Faro, Portugal",
+      "endPoint": "Lagos, Portugal",
+      "waypoints": ["Albufeira", "Portimão", "Sagres"],
+      "routeDescription": "Coastal route along the Mediterranean coast, featuring golden beaches, dramatic cliffs, and historic fishing villages."
+    },
+    "photos": [
+      {
+        "src": "img/trips/algarve-1.jpg",
+        "alt": "Golden Beach",
+        "caption": "Pristine golden beach with crystal clear waters"
+      },
+      {
+        "src": "img/trips/algarve-2.jpg",
+        "alt": "Limestone Cliffs",
+        "caption": "Dramatic limestone cliffs along the Algarve coast"
+      },
+      {
+        "src": "img/trips/algarve-3.jpg",
+        "alt": "Fishing Village",
+        "caption": "Traditional fishing village with colorful boats"
+      },
+      {
+        "src": "img/trips/algarve-4.jpg",
+        "alt": "Coastal Road",
+        "caption": "Scenic coastal road with Mediterranean views"
+      }
+    ]
+  },
+  {
+    "id": "north-portugal",
+    "title": "Northern Portugal Discovery",
+    "date": "2024-10-15",
+    "image": "img/trips/north.jpg",
+    "description": "Exploring the lush green landscapes of northern Portugal, from the Minho region to the historic cities of Braga and Guimarães.",
+    "category": "Countryside",
+    "distance": "520",
+    "duration": "5 days",
+    "link": "trip-template.html?id=north-portugal",
+    "map": {
+      "googleMapsUrl": "https://maps.google.com/?q=Braga,Portugal",
+      "startPoint": "Porto, Portugal",
+      "endPoint": "Guimarães, Portugal",
+      "waypoints": ["Braga", "Viana do Castelo", "Ponte de Lima"],
+      "routeDescription": "Northern route through lush green landscapes, historic cities, and traditional Portuguese villages."
+    },
+    "photos": [
+      {
+        "src": "img/trips/north-1.jpg",
+        "alt": "Green Landscapes",
+        "caption": "Lush green landscapes typical of northern Portugal"
+      },
+      {
+        "src": "img/trips/north-2.jpg",
+        "alt": "Historic Braga",
+        "caption": "The historic center of Braga with its impressive cathedral"
+      },
+      {
+        "src": "img/trips/north-3.jpg",
+        "alt": "Traditional Culture",
+        "caption": "Local traditional festival and cultural heritage"
+      },
+      {
+        "src": "img/trips/north-4.jpg",
+        "alt": "Mountain Roads",
+        "caption": "Winding mountain roads through the northern ranges"
+      }
+    ]
   }
 ]
