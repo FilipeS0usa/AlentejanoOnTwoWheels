@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Alentejano on Two Wheels" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <name>Lisbon to Cabo da Roca Coastal Route</name>
+    <desc>Coastal route along the Atlantic coast, featuring dramatic cliffs, historic towns, and panoramic ocean views</desc>
+    <time>2025-02-28T08:00:00Z</time>
+    <bounds minlat="38.7" minlon="-9.5" maxlat="38.8" maxlon="-9.4"/>
+  </metadata>
+  <rte>
+    <name>Coastal Adventures</name>
+    <desc>Stunning Portuguese coastline exploration</desc>
+    <rtept lat="38.7223" lon="-9.1393">
+      <name>Lisbon</name>
+      <desc>Starting point</desc>
+    </rtept>
+    <rtept lat="38.7970" lon="-9.3900">
+      <name>Sintra</name>
+      <desc>Mystical mountain town</desc>
+    </rtept>
+    <rtept lat="38.6970" lon="-9.4200">
+      <name>Cascais</name>
+      <desc>Charming coastal town</desc>
+    </rtept>
+    <rtept lat="38.7800" lon="-9.4900">
+      <name>Guincho Beach</name>
+      <desc>Wild Atlantic beach</desc>
+    </rtept>
+    <rtept lat="38.7800" lon="-9.5000">
+      <name>Cabo da Roca</name>
+      <desc>Westernmost point of continental Europe</desc>
+    </rtept>
+  </rte>
+</gpx> 

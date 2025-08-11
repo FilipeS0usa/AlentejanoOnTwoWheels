@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Alentejano on Two Wheels" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <name>Lisbon to Évora Motorcycle Route</name>
+    <desc>Beautiful countryside route from Lisbon to the historic city of Évora</desc>
+    <time>2025-03-15T09:00:00Z</time>
+  </metadata>
+  <rte>
+    <name>Lisbon to Évora</name>
+    <rtept lat="38.7223" lon="-9.1393">
+      <name>Lisbon</name>
+      <desc>Starting point in Lisbon</desc>
+    </rtept>
+    <rtept lat="38.6979" lon="-9.2154">
+      <name>Almada</name>
+      <desc>Crossing the Tagus River</desc>
+    </rtept>
+    <rtept lat="38.5667" lon="-8.9000">
+      <name>Montijo</name>
+      <desc>Countryside roads</desc>
+    </rtept>
+    <rtept lat="38.5725" lon="-7.9075">
+      <name>Évora</name>
+      <desc>Historic city destination</desc>
+    </rtept>
+  </rte>
+</gpx> 
