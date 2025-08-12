@@ -6,7 +6,10 @@
     <title>Alentejano on Two Wheels</title>
     <link rel="icon" type="image/png" href="img/logo.png" />
     <link rel="stylesheet" href="css/style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -21,8 +24,8 @@
         </div>
         <nav>
           <a href="index.html">Home</a>
-          <a href="trips.html">Trips</a>
-          <a href="gallery.html">Gallery</a>
+          <a href="trips.html">Viagens</a>
+          <a href="gallery.html">Galeria</a>
         </nav>
       </div>
     </header>
@@ -30,87 +33,61 @@
     <main>
       <!-- Hero Section -->
       <section class="hero">
-        <h1>Adventure Awaits</h1>
+        <h1>As aventuras de um principiante</h1>
         <p>
-          Join me on my motorcycle journeys across Portugal and beyond. 
-          Discover hidden roads, breathtaking landscapes, and unforgettable experiences.
+          Bem vindo(a) ao blog! O meu nome é Filipe Silva, e aqui irão poder ver
+          e ler todas as minhas aventuras de duas rodas. Juntem-se a mim nesta
+          minha nova jornada de mota por Portugal e arredores.
         </p>
-        <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
-          <a href="trips.html" class="btn">Explore Trips</a>
-          <a href="gallery.html" class="btn btn-secondary">View Gallery</a>
+        <div
+          style="
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+          "
+        >
+          <a href="trips.html" class="btn">Explora as Viagens</a>
+          <a href="gallery.html" class="btn btn-secondary">Vê a Galeria</a>
         </div>
       </section>
 
       <!-- Latest Trips Section -->
       <section class="section">
-        <h2>Latest Adventures</h2>
+        <h2>Ultimas Aventuras</h2>
         <div id="latest-trips" class="grid grid-3">
-          <div class="loading">Loading latest trips...</div>
-        </div>
-      </section>
-
-      <!-- Featured Content Section -->
-      <section class="section">
-        <h2>Featured Stories</h2>
-        <div class="grid grid-2">
-          <div class="card fade-in-up">
-            <img src="img/trips/evora.jpg" alt="Évora Countryside" onerror="this.src='https://via.placeholder.com/400x200/2a2a2a/00d4ff?text=Évora+Ride'">
-            <h3>Ride to Évora</h3>
-            <p>A beautiful journey through the Alentejo countryside to the historic city of Évora, featuring ancient Roman ruins and stunning landscapes.</p>
-            <div class="card-meta">
-              <span>March 15, 2025</span>
-              <span>Countryside</span>
-            </div>
-            <a href="trips.html" class="btn">Read More</a>
-          </div>
-          
-          <div class="card fade-in-up">
-            <img src="img/trips/coast.jpg" alt="Coastal Route" onerror="this.src='https://via.placeholder.com/400x200/2a2a2a/00d4ff?text=Coastal+Route'">
-            <h3>Coastal Adventures</h3>
-            <p>Exploring the stunning Portuguese coastline, from dramatic cliffs to hidden beaches, experiencing the perfect blend of sea and mountain roads.</p>
-            <div class="card-meta">
-              <span>Coming Soon</span>
-              <span>Coastal</span>
-            </div>
-            <a href="trips.html" class="btn">Coming Soon</a>
-          </div>
+          <div class="loading">A carregar ultimas viagens...</div>
         </div>
       </section>
 
       <!-- About Section -->
       <section class="section">
-        <h2>About the Rider</h2>
+        <h2>Acerca de mim</h2>
         <div class="card">
-          <p style="font-size: 1.1rem; line-height: 1.8;">
-            Welcome to my motorcycle journey! I'm passionate about exploring the beautiful landscapes of Portugal and beyond on two wheels. 
-            Each trip is an opportunity to discover new roads, meet interesting people, and create lasting memories.
+          <p style="font-size: 1.1rem; line-height: 1.8">
+            Bem-vindo(a) à minha aventura sobre duas rodas! O meu nome é Filipe
+            Silva e sou um pequeno alentejano que está a começar a descobrir o
+            mundo motard. O objectivo deste blog é registar tudo o que conseguir
+            à cerca das minhas viagens, desde fotos ao percurso que fiz.
           </p>
-          <p style="font-size: 1.1rem; line-height: 1.8; margin-top: 1rem;">
-            From the rolling hills of Alentejo to the dramatic mountains of the north, I share my experiences, routes, and tips 
-            to inspire fellow riders to embark on their own adventures.
+          <p style="font-size: 1.1rem; line-height: 1.8; margin-top: 1rem">
+            O meu objetivo é ir desde as praias e serras do Algarve até às
+            montanhas do Norte. E quem sabe também viajar pela Europa.
           </p>
         </div>
       </section>
 
       <!-- Stats Section -->
       <section class="section">
-        <h2>Journey Stats</h2>
+        <h2>Estatísticas das Viagens</h2>
         <div class="grid grid-4">
           <div class="card text-center">
             <h3 id="total-trips">0</h3>
-            <p>Total Trips</p>
+            <p>Total de Viagens</p>
           </div>
           <div class="card text-center">
             <h3 id="total-distance">0</h3>
-            <p>Kilometers Ridden</p>
-          </div>
-          <div class="card text-center">
-            <h3 id="total-photos">0</h3>
-            <p>Photos Taken</p>
-          </div>
-          <div class="card text-center">
-            <h3 id="favorite-route">Évora</h3>
-            <p>Favorite Route</p>
+            <p>Distância Viajada</p>
           </div>
         </div>
       </section>
