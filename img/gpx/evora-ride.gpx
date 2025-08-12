@@ -1,33 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<gpx version="1.1" creator="Alentejano on Two Wheels" xmlns="http://www.topografix.com/GPX/1/1">
-  <metadata>
-    <name>Lisbon to Évora Motorcycle Route</name>
-    <desc>Scenic route through the Alentejo plains, passing through historic towns and cork oak forests</desc>
-    <time>2025-03-15T09:00:00Z</time>
-    <bounds minlat="38.4" minlon="-9.2" maxlat="38.6" maxlon="-7.9"/>
-  </metadata>
-  <rte>
-    <name>Lisbon to Évora</name>
-    <desc>Beautiful countryside route through Alentejo</desc>
-    <rtept lat="38.7223" lon="-9.1393">
-      <name>Lisbon</name>
-      <desc>Starting point - Portugal's capital</desc>
-    </rtept>
-    <rtept lat="38.7069" lon="-8.9733">
-      <name>Montijo</name>
-      <desc>Crossing the Tagus River</desc>
-    </rtept>
-    <rtept lat="38.3733" lon="-8.5144">
-      <name>Alcácer do Sal</name>
-      <desc>Historic town on the Sado River</desc>
-    </rtept>
-    <rtept lat="38.0156" lon="-7.8650">
-      <name>Beja</name>
-      <desc>Capital of Baixo Alentejo</desc>
-    </rtept>
-    <rtept lat="38.5714" lon="-7.9135">
-      <name>Évora</name>
-      <desc>UNESCO World Heritage city</desc>
-    </rtept>
-  </rte>
-</gpx> 
+version https://git-lfs.github.com/spec/v1
+oid sha256:e699a9b35530f248e7f3ed321f9da40ff503a8bf894b7fbb415140aa1cae0e07
+size 1197
